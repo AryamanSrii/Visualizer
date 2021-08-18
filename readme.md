@@ -37,7 +37,7 @@ Space complexity: It is a function defined as a result of additional memory spac
 - Divide and conquer: The algorithm accomplishes its task by dividing the problem into smaller subproblems and solving them to come up with the overall solution.
 
 ## Types of Sorting Supported
-#### Merge Sort
+### Merge Sort
 Merge sort uses the divide and conquer technique. The main concept of merge sort is that an array of length 1 is sorted. The task, therefore, lies in splitting the array into subarrays of size 1 and then merge them appropriately so that it comes up with the sorted array.
 
 ##### Step-by-step guide
@@ -55,7 +55,7 @@ Merge sort uses the divide and conquer technique. The main concept of merge sort
 
 ![image](https://user-images.githubusercontent.com/68835688/129846083-3e734763-1cbc-4380-b6a2-74ad6bf522a5.png)
 
-#### Bubble Sorting
+### Bubble Sorting
 
 Bubble sort follows the recursion technique.
 
@@ -71,7 +71,7 @@ Bubble sort follows the recursion technique.
 ![image](https://user-images.githubusercontent.com/68835688/129846209-81996fb1-211a-4093-938d-9226c85c6cd8.png)
 
 
-#### Insertion Sort
+### Insertion Sort
 Insertion sort uses the recursion technique. There is a portion of the array that is sorted and the other that is unsorted. So you have to compare the elements from the unsorted portion one by one and insert them into the sorted portion in the correct order. In the guide below we are using ascending order.
 
 ##### Step-by-step guide
@@ -85,7 +85,7 @@ Insertion sort uses the recursion technique. There is a portion of the array tha
 
 ![image](https://user-images.githubusercontent.com/68835688/129846428-5c42a81b-a6f9-48f5-9142-a828c9c3aab2.png)
 
-#### Selection Sort
+### Selection Sort
 Selection sort uses the recursion technique. In the guide below, we are using ascending order. For descending order, you do the reverse.
 
 ##### Step-by-step guide
@@ -97,7 +97,7 @@ Selection sort uses the recursion technique. In the guide below, we are using as
 
 ![image](https://user-images.githubusercontent.com/68835688/129846652-a111d174-7555-4b95-b175-d07f0b379c30.png)
 
-#### Quick Sort
+### Quick Sort
 Quicksort applies the divide and conquer technique as well. It works by having a pivot element such that the elements to the left of it are less than it and those to the right are greater than it. The pivot element can be any element in the array.
 
 ##### Step-by-step guide
